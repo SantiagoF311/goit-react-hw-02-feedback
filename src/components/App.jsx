@@ -1,4 +1,3 @@
-import { Feedback } from "./Feedback";
 import React, { Component } from "react";
 import { Section } from "./Section";
 import { FeedbackOptions } from "./FeedbackOptions";
@@ -29,7 +28,7 @@ export class App extends Component {
               options={["good", "neutral", "bad"]}
               onLeaveFeedback={this.handleFeedback}
             />
-            
+
           </Section>
           <Section title="Statistics">
             <Statistics
