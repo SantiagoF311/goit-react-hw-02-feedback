@@ -29,6 +29,7 @@ export class App extends Component {
               options={["good", "neutral", "bad"]}
               onLeaveFeedback={this.handleFeedback}
             />
+            
           </Section>
           <Section title="Statistics">
             <Statistics
